@@ -37,8 +37,8 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 $(call inherit-product, device/xiaomi/sdm845-common/sdm845.mk)
 
 # ARStickers for GoogleCamera
-PRODUCT_PACKAGES += \
-    ARStickersMod
+#PRODUCT_PACKAGES += \
+#    ARStickersMod
 
 # GoogleCamera
 PRODUCT_PACKAGES += \
@@ -55,5 +55,5 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/uinput-goodix.kl:system/usr/keylayout/uinput-goodix.kl
 
 # Wallpapers
-PRODUCT_PACKAGES += \
-    WallpapersBReel2018
+#PRODUCT_PACKAGES += \
+#    WallpapersBReel2018
