@@ -236,4 +236,7 @@
         <item>10</item>
     </integer-array>
 
+    <!-- Whether auto face unlock is enabled by default -->
+    <bool name="config_autoFaceUnlockEnabledByDefault">true</bool>
+
 </resources>
