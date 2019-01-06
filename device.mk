@@ -35,6 +35,10 @@ DEVICE_PACKAGE_OVERLAYS += \
 PRODUCT_PACKAGES += \
     NoCutoutOverlay
 
+# ThermalConfigSetter
+PRODUCT_PACKAGES += \
+	ThermalConfigSetter
+
 # Properties
 -include $(LOCAL_PATH)/device-props.mk
 
