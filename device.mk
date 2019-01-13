@@ -50,8 +50,8 @@ $(call inherit-product, device/xiaomi/sdm845-common/sdm845.mk)
 #    ARStickersMod
 
 # GoogleCamera
-PRODUCT_PACKAGES += \
-    GoogleCameraMod
+#PRODUCT_PACKAGES += \
+#    GoogleCameraMod
 
 # Input
 PRODUCT_COPY_FILES += \
