@@ -28,6 +28,14 @@ BOARD_HAVE_QCOM_FM := true
 # Kernel
 BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 TARGET_KERNEL_CONFIG := beryllium_defconfig
+TARGET_KERNEL_SOURCE := kernel/xiaomi/beryllium
+TARGET_KERNEL_CLANG_VERSION := 8.0.7
+
+# Partitions
+BOARD_RECOVERYIMAGE_PARTITION_SIZE := 67108864
+
+# Recovery
+TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 
 # Partitions
 BOARD_RECOVERYIMAGE_PARTITION_SIZE := 67108864
