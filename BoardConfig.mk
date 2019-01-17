@@ -28,7 +28,7 @@ BOARD_HAVE_QCOM_FM := true
 # Kernel
 BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 TARGET_KERNEL_CONFIG := beryllium_defconfig
-TARGET_KERNEL_SOURCE := kernel/xiaomi/beryllium
+TARGET_KERNEL_SOURCE := kernel/xiaomi/sdm845
 TARGET_KERNEL_CLANG_VERSION := 8.0.7
 
 # Partitions
