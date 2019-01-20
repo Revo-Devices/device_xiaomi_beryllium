@@ -49,11 +49,6 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 # Inherit from sdm845-common
 $(call inherit-product, device/xiaomi/sdm845-common/sdm845.mk)
 
-
-# ARStickers for GoogleCamera
-#PRODUCT_PACKAGES += \
-#    ARStickersMod
-
 # GoogleCamera
 #PRODUCT_PACKAGES += \
 #    GoogleCameraMod
