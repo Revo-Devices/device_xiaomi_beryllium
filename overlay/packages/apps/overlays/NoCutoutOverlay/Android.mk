@@ -12,4 +12,4 @@ LOCAL_PRIVILEGED_MODULE := false
 
 LOCAL_OVERRIDES_PACKAGES := DisplayCutoutEmulationCornerOverlay DisplayCutoutEmulationDoubleOverlay DisplayCutoutEmulationNarrowOverlay DisplayCutoutEmulationTallOverlay DisplayCutoutEmulationWideOverlay
 
-include $(BUILD_RRO_SYSTEM_PACKAGE)
+include $(BUILD_SYSTEM_PACKAGE)

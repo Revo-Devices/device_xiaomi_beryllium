@@ -28,4 +28,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi-rev1
 
-export CUSTOM_BUILD_TYPE=Beta
+export CUSTOM_BUILD_TYPE=Official
