@@ -29,7 +29,7 @@ BOARD_HAVE_QCOM_FM := true
 BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 TARGET_KERNEL_CONFIG := beryllium_defconfig
 TARGET_KERNEL_SOURCE := kernel/xiaomi/sdm845
-TARGET_KERNEL_CLANG_VERSION := 8.0.7
+TARGET_KERNEL_CLANG_VERSION := 8.0.8
 
 # Partitions
 BOARD_RECOVERYIMAGE_PARTITION_SIZE := 67108864
@@ -42,3 +42,4 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 
 # Sepolicy
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
+
