@@ -30,7 +30,4 @@
     <dimen name="status_bar_height_landscape">28dp</dimen>
     <dimen name="rounded_corner_radius_top">95px</dimen>
 
-    <!-- Whether to show battery percentage inside icon -->
-    <bool name="config_battery_percentage_show_inside_icon">false</bool>
-
 </resources>
