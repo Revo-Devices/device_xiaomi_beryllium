@@ -1,3 +1,15 @@
 on init
     mount none /system/etc/qdcm_calib_data_ebbg_fhd_video_dsi_panel.xml /vendor/etc/qdcm_calib_data_ebbg_fhd_video_dsi_panel.xml bind
     mount none /system/etc/qdcm_calib_data_tianma_fhd_video_dsi_panel.xml /vendor/etc/qdcm_calib_data_tianma_fhd_video_dsi_panel.xml bind
+
+on property:persist.revo.perfmode=0
+    write /sys/class/thermal/thermal_message/sconfig 2
+
+on property:persist.revo.perfmode=1
+    write /sys/class/thermal/thermal_message/sconfig 0
+
+on property:persist.revo.perfmode=2
+    write /sys/class/thermal/thermal_message/sconfig 13
+
+on property:persist.revo.perfmode=3
+    write /sys/class/thermal/thermal_message/sconfig 10

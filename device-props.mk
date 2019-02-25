@@ -5,3 +5,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Display density
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.sf.lcd_density=430
+
+# Performance Profiles
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.revo.perfmode=1
