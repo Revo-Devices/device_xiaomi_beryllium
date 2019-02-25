@@ -240,4 +240,7 @@
     <!-- Whether device has a physical display cutout -->
     <bool name="config_physicalDisplayCutout">true</bool>
 
+    <!-- Support revo perf modes -->
+    <bool name="config_supportPerfModes">true</bool>
+
 </resources>
