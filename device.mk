@@ -46,12 +46,12 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 $(call inherit-product, device/xiaomi/sdm845-common/sdm845.mk)
 
 # Playground for GoogleCamera
-#PRODUCT_PACKAGES += \
-#    PlaygroundMod
+PRODUCT_PACKAGES += \
+    PlaygroundMod
 
 # GoogleCamera
-#PRODUCT_PACKAGES += \
-#    GoogleCameraMod
+PRODUCT_PACKAGES += \
+    GoogleCameraMod
 
 # Input
 PRODUCT_COPY_FILES += \

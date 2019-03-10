@@ -12,9 +12,6 @@ TARGET_GAPPS_ARCH := arm64
 TARGET_INCLUDE_STOCK_ARCORE := true
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
-# Inherit from custom vendor
-$(call inherit-product, vendor/ANXCamera/config.mk)
-
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := aosp_beryllium
 PRODUCT_DEVICE := beryllium
